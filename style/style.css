@@ -308,7 +308,7 @@ body {
 }
 
 .recent-news{
- margin: 80px 78px;   
+ margin: 70px 78px;   
 }
 
 .recent-news h3{
@@ -350,10 +350,7 @@ body {
 
 .common-font-news{
     color: rgba(14, 14, 14, 0.7);
-    font-size: 16px;
-  
-    
-    
+    font-size: 16px; 
 }
 
 
@@ -374,4 +371,166 @@ body {
 
 .news-section-2{
     margin: 24px 0;
+}
+
+/* donate section style here */
+
+.donate{
+     margin: 0px 78px;
+}
+
+.donation-heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.donation-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+
+.donate-amount{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 32px 40px;
+
+}
+
+.taka{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.taka2{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.donate h6{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 22px 100px;
+    padding: 12px 300px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
+.donate button{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    padding: 13px 26px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600px;
+    margin: 0px 420px 20px 420px; 
+}
+
+.btn-center{
+ justify-content: center;
+}
+
+
+/* subscription style here */
+
+.subscribe{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    margin: 50px 78px ;
+    padding: 40px 100px;
+}
+
+.subscribe h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subscribe p{
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.span-item{
+    text-align: center;
+}
+
+.email-btn{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.subscription-btn{
+    background-color: rgba(0, 106, 80, 1);
+}
+
+.subscribe-wrapper{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    justify-content: center;
+}
+
+.subscribe-wrapper input {
+  flex: 1;
+  padding: 14px 0px 14px 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px 0 0 8px;
+  font-size: 16px;
+  height: 50px; 
+  
+}
+
+
+.subscribe-wrapper button {
+  padding: 14px 28px;
+  border: none;
+  background-color: #006a4e; /* dark green */
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  height: 50px; 
+}
+
+.promise-section{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 80px;
+    padding: 50px 160px;
+}
+
+footer h3{
+    font-size: 32px;
+    font-size: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.footer-icon{
+    padding-top: 32px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.footer-icon img{
+    margin-right: 15px;
+}
+
+footer hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
 }
